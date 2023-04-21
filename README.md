@@ -20,6 +20,6 @@ The columns provided in the dataset are as follows:
 * PRODUCT_LENGTH - Represents the length of the product
 
 ## Evaluation Metric:
-score = max(0 , 100 * (1 - metrics.mean_absolute_percentage_error(actual,predicted)))
+```score = max(0 , 100 * (1 - metrics.mean_absolute_percentage_error(actual,predicted)))```
 
 
